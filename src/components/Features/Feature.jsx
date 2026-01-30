@@ -1,3 +1,4 @@
+import Billboard from "../Last-section/Images/Billboard"
 import Benefit from "./Benefit"
 import TeamGrow from "./TeamGrow"
 

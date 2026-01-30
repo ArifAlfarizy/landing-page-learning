@@ -1,10 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  margin: 30px;
+  margin: 15px;
 }
 
 
 @theme {
   --shadow-md: 0px 2px 10px 1px rgba(0, 0, 0, 0.12);
+}
+
+.color-pink-bg {
+  @apply: bg-gradient-to-r from-pink-200 to-orange-200
+}
+
+.color-pink-border {
+  @apply: border-gradient-to-r from-pink-200 to-orange-200
 }
